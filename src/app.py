@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 import joblib
 
 clf = joblib.load("model/league_win_prediction_model.pkl")
